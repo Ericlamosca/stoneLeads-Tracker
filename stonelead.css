@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 > a {
+	color: rgb(23, 28, 34);
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica;
+	margin-top: 5px;
+	color: rgb(23, 28, 34);
+}
+
+nav > a {
+	font-family: Arial, Helvetica;
+	text-decoration: none;
+	color: SlateGray;
+	font-size: 20px;
+	margin: 0 25px;
+}
+
+nav {
+	text-align: center;
+	padding: 10px;
+}
+
+#topBorder {
+	width: 100%;
+	margin: 0;
+	border-top: 50px solid; 
+	color: rgb(23, 28, 34);
+}
+
+.stoneHouse {
+	display: block;
+    margin: auto;
+}
+	
+
+.middleBorder {
+	width: 100%;
+	border: solid 1px;
+	border-color: LightSteelBlue;
+	margin-top: -15px;
+}
+
+.hero {
+	display: flex;
+	border: solid 1px;
+	height: 500px;
+	margin: 0;
+	margin-top: 0;
+	width: 100%;
+}
+
+.heroText {
+	width: 35%;
+	height: 500px;
+	color: LightSteelBlue;
+	background-color: rgb(23, 28, 34); 
+	font-family: Arial, Helvetica;
+	font-size: 35px;
+	border-bottom: solid 1px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.rightSide {
+	display: flex;
+	border-bottom: solid 1px;
+	height: 500px;
+	margin-top: 0;
+	width: 65%; 
+}
