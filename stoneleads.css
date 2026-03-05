@@ -18,6 +18,13 @@ h1 {
 	color: rgb(23, 28, 34);
 }
 
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: rgb(23, 28, 34);
+	text-align: center;
+}
+
 nav > a {
 	font-family: Arial, Helvetica;
 	text-decoration: none;
@@ -48,17 +55,14 @@ nav {
 .section {
 	display: grid;
   	grid-template-columns: 40% 60%;
-	width: 100%;
 	height: 500px;
-	border: thin;
 }
 
 .lefty {
 	height: 500px;
-	border: solid 1px;
-	border-color: black;
 	background-color:  rgb(23, 28, 34);
 	font-size: 40px;
+	font-family: Helvetica, Arial, sans-serif;
 	color: LightSteelBlue;
 	display: flex;
 	align-items: center;
@@ -67,11 +71,35 @@ nav {
 
 .righty {
 	height: 500px;
-	border: solid 1px;
-	border-color: black;
 }
 
 #stonehouse {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+#whatUneed {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.reverse-section {
+	display: grid;
+  	grid-template-columns: 40% 60%;
+	height: 500px;
+}
+
+.reverse-lefty {
+	height: 500px;
+}
+
+.reverse-righty {
+	background-color: WhiteSmoke;
+	height: 500px;
+}
+
+#stonehouse2 {
 	width: 100%;
 	height: 100%;
 	object-fit: fill;
