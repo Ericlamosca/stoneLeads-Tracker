@@ -25,6 +25,13 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgb(23, 28, 34);
+}
+
 nav > a {
 	font-family: Arial, Helvetica;
 	text-decoration: none;
@@ -54,7 +61,7 @@ nav {
 
 .section {
 	display: grid;
-  	grid-template-columns: 40% 60%;
+  	grid-template-columns: 60% 40%;
 	height: 500px;
 }
 
@@ -65,8 +72,9 @@ nav {
 	font-family: Helvetica, Arial, sans-serif;
 	color: LightSteelBlue;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	text-align: center;
 }
 
 .righty {
@@ -115,7 +123,24 @@ nav {
 	object-fit: fill;
 }
 
-#CreateYourAccount {
+#createYourAccountBtn {
 	display: flex;
 	justify-content: center;
+}
+
+.accountCreation {
+	display: grid;
+  	grid-template-columns: 33% 33% 33%;
+	height: 600px;
+	border: solid 1px;
+}
+
+.oneThird {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+#createAccountHeader {
+	
 }
