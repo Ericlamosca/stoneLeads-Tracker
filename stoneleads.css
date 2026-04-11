@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+
+button:hover {
+	cursor: pointer;
+}
+
 input 
 {
 	border-radius: 20px;
@@ -33,6 +38,17 @@ h1 {
 	text-align: center;
 	font-family: Arial, Helvetica;
 	margin-top: 5px;
+	color: rgb(23, 28, 34);
+}
+
+.spancontainer {
+	display: flex;
+	justify-content: center;
+}
+
+span > h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 	color: rgb(23, 28, 34);
 }
 
@@ -70,9 +86,10 @@ button > a {
 
 #topBorder {
 	width: 100%;
+	height: 50px;
 	margin: 0;
-	border-top: 50px solid; 
-	color: rgb(23, 28, 34);
+	color: LightSteelBlue;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
 }
 
 .middleBorder {
@@ -190,7 +207,7 @@ justify-content: center; /* centers text inside */
 .bottomBorder {
 	width: 100%;
 	border: 1px solid LightGrey;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 .customerCardContainer {
@@ -225,4 +242,33 @@ justify-content: center; /* centers text inside */
 
 .anotherButton:hover {
   cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.active {
+	text-decoration: underline;
+}
+
+.wrapperforbelow {
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.aboutpagecontainer {
+	height: 80vh;
+	width: 90vw;
+}
+
+.aboutContent {
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 20px;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
 }
