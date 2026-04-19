@@ -320,3 +320,24 @@ span {
 .yardo {
 	font-size: 12px;
 }
+
+.newcontent {
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 20px;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.paraContent3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}
+
+.contborder {
+	border-bottom: 1px solid gray;
+	width: 87.5vw;
+	
+}
