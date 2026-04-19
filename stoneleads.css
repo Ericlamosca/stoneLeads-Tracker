@@ -41,6 +41,10 @@ h1 {
 	color: rgb(23, 28, 34);
 }
 
+div > h2 {
+	color: rgb(23, 28, 34)
+}
+
 .spancontainer {
 	display: flex;
 	justify-content: center;
@@ -106,10 +110,11 @@ button > a {
 
 .lefty {
 	height: 500px;
-	background-color:  rgb(23, 28, 34);
+	background-color: LightSteelBlue;
 	font-size: 40px;
 	font-family: Helvetica, Arial, sans-serif;
 	color: LightSteelBlue;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
 	display: flex;
 	justify-content: center; /* Horizontal centering */
 	align-items: center; /* Vertical centering */
@@ -143,6 +148,7 @@ button > a {
 
 .reverse-righty {
 	background-color: WhiteSmoke;
+	background: linear-gradient(360deg, LightSlateGrey, WhiteSmoke);
 	height: 500px;
 	font-size: 40px;
 	font-family: Helvetica, Arial, sans-serif;
@@ -175,12 +181,12 @@ justify-content: center; /* centers text inside */
 .createYourAccountBtn {
   	margin: 0 auto;    
 	border-radius: 40px; 
-	border: none; 
+	border: 1px solid black; 
 	padding: 20px 20px 20px 20px; 
-	color: rgb(23, 28, 34); 
+	color: silver; 
 	font-size: 25px; 
 	font-style: Helvetica, Arial, sans-serif; 
-	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	background: rgb(23, 28, 34);
 }
 
 #createYourAccountBtn:hover {
@@ -255,7 +261,6 @@ a.active {
 .wrapperforbelow {
 	display: flex;
 	justify-content: center;
-	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -266,9 +271,52 @@ a.active {
 }
 
 .aboutContent {
+	display: flex;
 	height: 100%;
 	width: 100%;
 	border: 1px solid black;
 	border-radius: 20px;
 	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+div > div > img {
+	border-radius: 20px;
+	height: 300px;
+	width: 300px;
+}
+
+
+.paraContainer {
+	height: 600px;
+	width: 1500px;
+}
+
+.paraContent {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.paraConainer2 {
+	height: 600px;
+	width: 1500px;
+}
+
+.paraContent2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+
+span {
+	display: block;
+	text-decoration-line: underline;
+	justify-content: center;
+	
+}
+
+.yardo {
+	font-size: 12px;
 }
