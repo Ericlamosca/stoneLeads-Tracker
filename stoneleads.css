@@ -341,3 +341,8 @@ span {
 	width: 87.5vw;
 	
 }
+
+.shortBorder {
+	border-bottom: 1px solid gray;
+	width: 25vw;
+}
