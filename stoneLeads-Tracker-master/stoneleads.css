@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+button:hover {
+	cursor: pointer;
+}
+
+input 
+{
+	border-radius: 20px;
+}
+
+label {
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(23, 28, 34);
+	font-weight: lighter;
+}
+
+textarea {
+	height: 15vh;
+	width: 20vw;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+h1 > a {
+	color: rgb(23, 28, 34);
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica;
+	margin-top: 5px;
+	color: rgb(23, 28, 34);
+}
+
+div > h2 {
+	color: rgb(23, 28, 34)
+}
+
+.spancontainer {
+	display: flex;
+	justify-content: center;
+}
+
+span > h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: rgb(23, 28, 34);
+}
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: rgb(23, 28, 34);
+	text-align: center;
+}
+
+h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgb(23, 28, 34);
+}
+
+nav > a {
+	font-family: Arial, Helvetica;
+	text-decoration: none;
+	color: SlateGray;
+	font-size: 20px;
+	margin: 0 25px;
+}
+
+nav {
+	text-align: center;
+	padding: 10px;
+}
+
+button > a {
+	text-decoration: none;
+	color: rgb(23, 28, 34);
+}
+
+#topBorder {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	color: LightSteelBlue;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+}
+
+.middleBorder {
+	width: 100%;
+	border: 1px solid LightSteelBlue;
+	margin-top: -15px;
+}
+
+.section {
+	display: grid;
+  	grid-template-columns: 60% 40%;
+	height: 500px;
+}
+
+.lefty {
+	height: 500px;
+	background-color: LightSteelBlue;
+	font-size: 40px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: LightSteelBlue;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	text-align: center;
+}
+
+.righty {
+	height: 500px;
+}
+
+#stonehouse {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+#whatUneed {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.reverse-section {
+	display: grid;
+  	grid-template-columns: 40% 60%;
+	height: 500px;
+}
+
+.reverse-lefty {
+	height: 500px;
+}
+
+.reverse-righty {
+	background-color: WhiteSmoke;
+	background: linear-gradient(360deg, LightSlateGrey, WhiteSmoke);
+	height: 500px;
+	font-size: 40px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center; /* Horizontal centering */
+}
+
+.parry {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-align: justify; /* Horizontal centering */
+	padding: 0 30px;
+}
+
+#stonehouse2 {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.fillout {
+	text-align: center;
+	 margin: 0 auto; 
+}
+
+.buttonContainer {
+display: flex;
+justify-content: center; /* centers text inside */
+}
+
+.createYourAccountBtn {
+  	margin: 0 auto;    
+	border-radius: 40px; 
+	border: 1px solid black; 
+	padding: 20px 20px 20px 20px; 
+	color: silver; 
+	font-size: 25px; 
+	font-style: Helvetica, Arial, sans-serif; 
+	background: rgb(23, 28, 34);
+}
+
+#createYourAccountBtn:hover {
+  cursor: pointer;
+}
+
+.accountCreation {
+	display: grid;
+  	grid-template-columns: 33% 33% 33%;
+	height: 600px;
+}
+
+.oneThird {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+#createAccountHeader {
+	text-align: center;
+	 margin: 0 auto; 
+}
+
+.bottomBorder {
+	width: 100%;
+	border: 1px solid LightGrey;
+	margin-top: 10px;
+}
+
+.customerCardContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.customerCard {
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	background-color: LightSteelBlue;
+	border-radius: 20px;	
+	border: 1px solid rgb(23, 28, 34);
+	height: 60vh;
+	width: 30vw;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.anotherButton {
+  	margin: 0 auto;    
+	border-radius: 40px; 
+	border: none; 
+	padding: 20px 20px 20px 20px; 
+	color: rgb(23, 28, 34);
+	font-size: 25px; 
+	font-style: Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+	background: linear-gradient(360deg, Gray, DarkGray);
+}
+
+.anotherButton:hover {
+  cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.active {
+	text-decoration: underline;
+}
+
+.wrapperforbelow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.aboutpagecontainer {
+	height: 80vh;
+	width: 90vw;
+}
+
+.aboutContent {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 20px;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+div > div > img {
+	border-radius: 20px;
+	height: 300px;
+	width: 300px;
+}
+
+
+.paraContainer {
+	height: 600px;
+	width: 1500px;
+}
+
+.paraContent {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.paraConainer2 {
+	height: 600px;
+	width: 1500px;
+}
+
+.paraContent2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+
+span {
+	display: block;
+	text-decoration-line: underline;
+	justify-content: center;
+	
+}
+
+.yardo {
+	font-size: 12px;
+}
+
+.newcontent {
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 20px;
+	background: linear-gradient(360deg, LightSlateGrey, LightSteelBlue);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.paraContent3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}
+
+.contborder {
+	border-bottom: 1px solid gray;
+	width: 87.5vw;
+	
+}
+
+.shortBorder {
+	border-bottom: 1px solid gray;
+	width: 25vw;
+}
